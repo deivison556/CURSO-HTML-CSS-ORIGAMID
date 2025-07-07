@@ -1,0 +1,32 @@
+/* Importando arquivos CSS */
+@import './header.css';
+@import './main.css';
+@import './vantagens.css';
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Criando variaves CSS */
+:root {
+  --cor-cinza: #f7f7f7;
+  --cor-cinza-escuro: #c6c6c6;
+  --cor-vermelho: #ee2211;
+  --cor-vermelho-hover: #eb2e1d;
+}
+
+footer {
+  margin-top: 40px;
+  height: 80px;
+  width: auto;
+  background-color: var(--cor-cinza);
+}
+
+footer p {
+  padding-top: 40px;
+  font-size: 20px;
+  text-align: center;
+}
